@@ -76,7 +76,6 @@ usersCtrl.signUp = async (req, res) => {
 }
 
 usersCtrl.signIn = async (req, res) => {
-    console.log("HELLO");
     const { email, password } = req.body;
 
     if (!email) {
